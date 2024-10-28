@@ -31,7 +31,6 @@ body {
         position: relative;
         transition: filter 0.3s ease-in-out;
 
-
         #circle_btn {
             position: absolute;
             height: 65px;
@@ -40,7 +39,6 @@ body {
             background-color: #fff;
             z-index: 999;
             cursor: pointer;
-
             transition: margin-left 0.5s ease-in-out;
 
         }
