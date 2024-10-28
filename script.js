@@ -7,32 +7,14 @@ let count = 0;
 
 toggle_btn_container.addEventListener("click", function(){
     if(count % 2 == 0){
-        circle_btn.style.marginLeft = "0";
+        circle_btn.style.marginLeft = "90px";
         count++;
         body.style.backgroundColor = "white";
         h1.style.color = "black";
     } else {
-        circle_btn.style.marginRight = "0";
+        circle_btn.style.marginLeft = "0";
         count--;
         body.style.backgroundColor = "black";
         h1.style.color = "white";
     }
 })
-
-
-
-
-
-// toggle_btn_container.addEventListener("click", function(){
-//         if(count%2==0){
-//             circle_btn.style.marginLeft="0";
-//              count++;
-//              body.style.backgroundColor = "white";
-//              h1.style.filter="invert(0)";
-//         } else {
-//             circle_btn.style.marginLeft="70px";
-//              count++;
-//              body.style.backgroundColor = "black";
-//              h1.style.filter="invert(1)";
-//         }
-// })
